@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "network_test",
+  "version": "${version}",
+  "name": "NetworkTest",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "NetworkTest.NetworkTest.fabric.NetworkTestFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "minecraft": ">=1.19.2"
+  }
+}
